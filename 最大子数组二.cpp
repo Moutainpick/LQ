@@ -1,14 +1,12 @@
-//½á¶Ô¿ª·¢¡ª¶ş ºú½ğ»Ô ÀîÇà 
+ï»¿//ç»“å¯¹å¼€å‘â€”äºŒ èƒ¡é‡‘è¾‰ æé’ 
 
-#include "stdafx.h"
-
-
+#include<stdio.h>
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int i, j, k, m, n, o, a[5];
 	int Sum, Max, flag, flag1 = 0, flag2, flag4;
 
-	printf("ÇëÊäÈë5¸öÕûÊı£º\n");
+	printf("è¯·è¾“å…¥5ä¸ªæ•´æ•°ï¼š\n");
 	for (k = 0; k<5; k++)
 	{
 		scanf("%d", &a[k]);
@@ -55,8 +53,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 
 	}
-	printf("×î´óÁ¬Ğø»·×ÓÊı×éµÄºÍÎª£º%d\n", Max);
-	printf("¸Ã×î´óÁ¬Ğø»·×ÓÊı×éÎª£º");
+	printf("æœ€å¤§è¿ç»­ç¯å­æ•°ç»„çš„å’Œä¸ºï¼š%d\n", Max);
+	printf("è¯¥æœ€å¤§è¿ç»­ç¯å­æ•°ç»„ä¸ºï¼š");
 
 	if (Sum == 0)
 	{
