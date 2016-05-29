@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_bg_all"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/origin"
+                android:textColor="@color/blue"
+                android:textSize="23sp" />
+
+            <Spinner
+                android:id="@+id/path_start"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_bg_all"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/destination"
+                android:textColor="@color/blue"
+                android:textSize="23sp" />
+
+            <Spinner
+                android:id="@+id/path_end"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/path_short"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/anniu"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/shortistroad" />
+
+    <!--
+    <Button
+        android:id="@+id/path_all"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/anniu3"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/findallpath" />
+
+    
+    <Button
+        android:id="@+id/path_dfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@layout/shape_button_ok"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="深度遍历景点" />
+
+    <Button
+        android:id="@+id/path_bfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@layout/shape_button_ok"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="广度遍历景点" />
+
+    <Button
+        android:id="@+id/add_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@layout/shape_button_ok"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="添加路径信息" />
+        
+
+    <Button
+        android:id="@+id/path_best"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/anniu3"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/findbestroads" />
+        -->
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TDGA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="showview">显示景点</string>
+    <string name="selectview">选择景点:</string>
+    <string name="findroads_info">查询路线信息</string>
+    <string name="findmap_info">Find out the Map information</string>
+    <string name="school_Location">校园定位</string>
+    <string name="roads">Path</string>
+    <string name="experience">立即体验</string>
+    <string name="origin">Start:</string>
+    <string name="destination">Destination:</string>
+    <string name="shortistroad">Start searching!</string>
+    <string name="viewinfo">Introduction</string>
+    <string name="gpslocation">Loaction</string>
+    <string name="findingroad">Selection</string>
+    <string name="tiedafc">Precence</string>
+    <string name="tiedays">Daily News</string>
+    <string name="about">About Us</string>
+    <string name="findallpath">查询所有路线</string>
+    <string name="findbestroads">查询最佳路线</string>
+    <string name="developer_info">开发者信息</string>
+    <string name="developer">开发者：TDGA</string>
+    <string name="email">博客园地址：http://www.cnblogs.com/TDGA/</string>
+    <string name="version_info">版本信息</string>
+    <string name="version">版本:校园导航 1.0版</string>
+    <string name="version_ex">版本说明:校园导航1.0版有良好的用户体验界面，快速而便捷的查询路线信息</string>
+    <string name="note">备注:若有需求，会升级版本</string>
+    <!-- <string name="help">帮助</string>
+    <string name="help_info">帮助信息</string>
+    <string name="detail_help_info">使用说明</string> -->
+</resources>
