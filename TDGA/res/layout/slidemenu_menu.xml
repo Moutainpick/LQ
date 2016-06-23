@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="240dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:background="@drawable/background4"
+        android:gravity="fill|fill_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/showviewbutton"
+            android:drawableLeft="@drawable/tab_pics"
+            android:text="@string/viewinfo" />
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/locationbutton"
+            android:drawableLeft="@drawable/tab_local"
+            android:text="@string/gpslocation" />
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/findroadbutton"
+            android:drawableLeft="@drawable/tab_ties"
+            android:text="@string/findingroad" />
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/fengcaibutton"
+            android:drawableLeft="@drawable/tab_read"
+            android:text="@string/tiedafc" />
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/yishibutton"
+            android:drawableLeft="@drawable/tab_news"
+            android:text="@string/tiedays" />
+
+        <TextView
+            style="@style/tab_style"
+            android:id="@+id/about"
+            android:drawableLeft="@drawable/tab_focus"
+            android:text="@string/about" />
+
+    </LinearLayout>
+
+</ScrollView>
